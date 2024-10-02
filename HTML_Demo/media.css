@@ -1,0 +1,374 @@
+@media (max-width: 991px) {
+    /* Header Code  */
+
+    .header-wrapper {
+        justify-content: space-between;
+    }
+
+    .header-data ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .header-data {
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .header-data.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        padding: 0 24px;
+    }
+
+    .user-nav-data-box {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .user-nav-data-box {
+        height: auto;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Hero Section  */
+
+    .hero-section {
+        padding: 60px 0 80px 0;
+    }
+
+    .hero-wrapper {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .hero-data {
+        width: 100%;
+    }
+
+    /* Customer Logo section */
+    .logo-box {
+        gap: 32px;
+        justify-content: space-around;
+    }
+
+    /* Unmessify Features section */
+    .features-wrappper {
+        gap: 48px;
+    }
+
+
+    .features-data-box {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .features-image-box {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .feature-data {
+        width: 100%;
+        order: 2;
+    }
+
+    .feature-heading {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .feature-dec {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* Promotion Features section */
+    .promotion-section {
+        padding: 60px 0;
+    }
+
+    .promotion-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        gap: 60px;
+    }
+
+    .promotion-image-box {
+        max-width: 366px;
+    }
+
+    .promotion-data {
+        width: 100%;
+    }
+
+
+    /*  Customer Section  */
+
+    .customer-section {
+        padding: 60px 0;
+    }
+
+    .customer-grid-box {
+        margin-top: 52px;
+        column-gap: 30px;
+        row-gap: 32px;
+    }
+
+    .custome-card {
+        padding: 30px;
+    }
+
+    .section-heading-box .custome-dec {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* CTA Section */
+
+    .cta-section {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    .cta-wrapper {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .cta-image-box {
+        margin-top: 0;
+    }
+
+    /* Footer Section */
+
+    footer {
+        padding: 60px 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer-main-data {
+        width: 100%;
+    }
+
+    .footer-link-data {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Footer Section */
+
+    .footer-link-data {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-link-box {
+        width: 100%;
+    }
+
+    .witdh {
+        width: 45%;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+
+    /* Hero Section  */
+
+    .hero-section {
+        padding: 30px 0 60px 0;
+    }
+
+
+    .hero-heading {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .section-dec {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 570px;
+    }
+
+    .app-box {
+        margin-top: 24px;
+    }
+
+    .adjust-box {
+        max-width: 108px;
+        height: 89px;
+        left: 0px;
+        top: 90px;
+    }
+
+    .box-data {
+        max-width: 160px;
+        height: 74px;
+    }
+
+    .green-box {
+        width: 98px;
+        height: 98px;
+        left: 0px;
+        bottom: 40px;
+    }
+
+    .yello-box {
+        width: 22.5px;
+        height: 22.5px;
+        top: 15px;
+        right: 90px;
+    }
+
+    /* Unmessify Features section */
+
+    .features-section {
+        padding: 60px 0;
+    }
+
+
+    .section-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .features-data-box {
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .feature-data {
+        gap: 24px;
+    }
+
+    .features-image-box {
+        padding: 0 20px 0 20px;
+    }
+
+    .feature-card-icon {
+        max-width: 32px;
+        height: 32px;
+    }
+
+    .feature-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .feature-dec {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .clothes {
+        max-width: 179.2px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .defult {
+        max-width: 98.75px;
+        width: 100%;
+        bottom: 60px;
+        border-radius: 10px;
+    }
+
+    .vector {
+        max-width: 149.77px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .feature-adjust {
+        max-width: 116.79px;
+        width: 100%;
+    }
+
+    .feature-storage {
+        right: 0px;
+    }
+
+    /* Promotion Features section */
+    .promotion-section {
+        padding: 60px 0;
+    }
+
+    .promotion-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 32px;
+    }
+
+    .promotion-image-box {
+        max-width: 272px;
+        margin-top: -76px;
+        margin-bottom: 0;
+    }
+
+    .promotion-data {
+        width: 100%;
+    }
+
+    .cta-heading {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .cta-button {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    /*  Customer Section  */
+
+    .customer-grid-box {
+        margin-top: 48px;
+        row-gap: 24px;
+        grid-template-columns: 1fr;
+    }
+
+    .custome-card {
+        padding: 24px;
+    }
+
+    .section-heading-box .custome-dec {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* CTA Section */
+
+    .cta-wrapper {
+        gap: 48px;
+    }
+
+}
